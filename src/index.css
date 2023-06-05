@@ -1,0 +1,55 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: #dde2dd !important;
+}
+
+input {
+  border-radius: 8px;
+  border: 1px solid #213547;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+button {
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 1rem;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  outline: 1px solid #213547;
+}
+button:hover {
+  outline: none;
+  border-color: blueviolet;
+}
+
+.button1:hover {
+  background-color: rgb(170, 161, 196) !important;
+  color: aqua;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media all and (max-width: 480px) {
+  button {
+    font-size: 0.9em;
+  }
+}
